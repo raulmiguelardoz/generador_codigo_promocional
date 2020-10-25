@@ -1,0 +1,13 @@
+import random
+import string
+
+def get_promo_code():
+    alfabeto_numeros=list((string.ascii_uppercase)+string.digits)
+    codigo=""
+    for i in range(7):
+        codigo+=random.choice(alfabeto_numeros)
+    print(codigo)
+    
+    
+get_promo_code()
+        
